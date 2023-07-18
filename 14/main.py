@@ -1,3 +1,15 @@
+import myMath
+
+print(myMath.add(3,4))
+print(myMath.sub(4,2))
+
+from myMath import add,sub
+print(add(3,4))
+print(sub(4,2))
+
+from myMath import *
+print(add(3,4))
+print(sub(4,2))
 hi~~there is 1 row/rows.
 there is 2 row/rows.
 there is 3 row/rows.
